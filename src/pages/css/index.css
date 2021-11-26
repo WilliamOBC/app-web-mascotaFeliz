@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F9EFEC;
+}
+
+/* Botones */
+.btn-mfeliz {
+    background-color: #EA2027;
+    color: black;
+}
+
+.btn-mfeliz:hover {
+    color: #ffff;
+}
+
+.btn-h {
+    background-color: #95C144;
+}
+
+.btn-h:hover {
+    color: black !important;
+}
+
+.btn-planes {
+    background-color: #362673;
+}
+
+.btn-planes:hover {
+    color: black !important;
+}
+
+.btn-contact {
+    margin-top: 5px;
+    background-color: #2D8677;
+}
+
+.btn-contact:hover {
+    color: black !important;
+}
+
+/* Header */
+#header img{
+    width: 32px;
+}
+
+#header h1{
+    color: #fff;
+    font-size: 22px;
+}
+
+/* Main */
+#main .carousel-inner img {
+    max-height: 100vh;
+    object-fit: cover;
+    filter: grayscale(50%);
+}
+
+.carousel-item {
+    transition: transform 1s ease, opacity .5s ease-out;
+}
+
+#carousel {
+    position: relative;
+}
+
+#carousel .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffff;
+    z-index: 1;
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row{
+    height: 100%;
+}
+
+/* Imagenes*/
+.block-img {
+    margin-top: 15px;
+}
+
+/* Footer */
+#footer {
+    background: #0F2027;
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    color: #ffff;
+}
+
+.block-footer {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.col-12 {
+    padding-bottom: 2rem;
+}
+
+.block-info ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.block-info a {
+    text-decoration: none;
+    color: #ffff;
+}
+
+.block-info a:hover {
+    color:#38A865;
+}
+
+.block-info img{
+    width: 20px;
+}
+
+.block-info h2{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.block-info p {
+    display: inline-block;
+}
+
+.block-social {
+    display: block;
+    margin-top: 10px;
+}
+
+.block-social a {
+    padding-right: 10px;
+}
+
+.house-icon {
+    margin-left: 1rem;
+}
+
+.alert-danger {
+    margin-top: 25px;
+}
