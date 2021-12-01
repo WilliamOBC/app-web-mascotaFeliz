@@ -1,0 +1,59 @@
+.block-main {
+    min-height: 100vh;
+    position: relative;
+}
+
+.targets {
+    padding-top: 190px;
+    padding-bottom: 190px;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.capa {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #1c1c1d;
+    opacity: 0.5;
+    mix-blend-mode: overlay;
+}
+
+.card-body ul img {
+    padding-right: 15px;
+    width: 36px;
+}
+
+.card-body h5 {
+    padding-bottom: 20px;
+}
+
+.card-body ul {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.btn-platino {
+    border-color: #7f7679;
+}
+
+.btn-platino:hover {
+    background: #7f7679;
+}
+
+.btn-plata {
+    border-color: #c2c1bf;
+}
+
+.btn-plata:hover {
+    background: #c2c1bf;
+}
